@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+.content {
+    width: 230px;
+    height: 300px;
+    border: 1px solid #ddd;
+}
+
+h6 {
+    margin: 0;
+}
+
+table {
+    text-align: center;
+    width: 230px;
+}
+
+.bottom-line {
+    border-bottom: 1px solid #ddd;
+}
+
+.price {
+    font: 14px bold;
+}
+
+img {
+    width: 40px;
+    height: 40px;
+}
+
+.center {
+    text-align: center;
+}
