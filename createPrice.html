@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="/createPrice.css">
     <title>Создать ценник</title>
 </head>
+
 <body>
     <main id="main">
         <section id="create-price">
@@ -17,7 +19,7 @@
                     <input required placeholder="Название товара" type="text" name="nameGoods">
                 </div>
                 <!-- /.title-box -->
-                
+
                 <div class="img-box d-flex justify-content-between">
                     <div class="img-item"><img src="/img/camera.png" alt="camera"></div>
                     <div class="img-item"><img src="/img/memory.png" alt="memory"></div>
@@ -25,45 +27,83 @@
                     <div class="img-item"><img src="/img/battery.png" alt="battery"></div>
                 </div>
 
-                <div class="input-box d-flex justify-content-between">
-                    <div class="text-item"><input required placeholder="Камера" type="text"></div>
-                    <div class="text-item"><input required placeholder="Память" type="text"></div>
-                    <div class="text-item"><input required placeholder="Дисплей" type="text"></div>
-                    <div class="text-item"><input required placeholder="Аккумулятор" type="text"></div>
+                <div class="input-box d-flex justify-content-between aling-center">
+                    <div class="text-item-input"><input required placeholder="Камера" type="text" name="camera"></div>
+                    <div class="text-item-input"><input required placeholder="Память" type="text" name="memory"></div>
+                    <div class="text-item-input"><input required placeholder="Дисплей" type="text" name="display"></div>
+                    <div class="text-item-input"><input required placeholder="Аккумулятор" type="text" name="battery">
+                    </div>
                 </div>
                 <!-- /.input-box -->
                 <!-- /.img-box -->
 
                 <div class="price-box">
-                    <div class="price-item"><input required placeholder="Цена товара" type="text"></div>
-                    <div class="price-item"><input required placeholder="Цена товара" type="text"></div>
+                    <div class="price-item-input"><input required placeholder="Цена товара" type="text" name="priceOne">
+                    </div>
+                    <div class="price-item-input"><input required placeholder="Цена товара" type="text" name="priceTwo">
+                    </div>
                 </div>
                 <!-- /.price-box -->
 
-                <div class="description-box">
-                    <input required placeholder="Описание товара" type="text">
+                <div class="description-box-input">
+                    <input required placeholder="Описание товара" type="text" name="description">
                 </div>
                 <!-- /.description-box -->
 
                 <div class="info-box d-flex justify-content-between">
-                    <div class="author"><input required placeholder="Автор" type="text"></div>
-                    <div class="Дата"><input required placeholder="Дата" type="date"></div>
+                    <div class="author-input"><input required placeholder="Автор" type="text" name="author"></div>
+                    <div class="date-input"><input required placeholder="Дата" type="date" name="date"></div>
                 </div>
                 <!-- /.info-box -->
 
             </div>
             <!-- /.container -->
         </section>
-        <!-- /#create-price -->
-        <section class="price">
-            <div class="container-price">
-                <h3 class="name-company"></h3>
+
+        <section id="price">
+            <div class="container">
+                <div class="title-box">
+                    <div class="name-company">Название компании</div>
+                    <div class="category-goods">Категория товара</div>
+                    <div class="name-goods">Название товара</div>
+                </div>
+                <!-- /.title-box -->
+                <div class="img-box d-flex justify-content-between">
+                    <div class="img-item"><img src="/img/camera.png" alt="camera"></div>
+                    <div class="img-item"><img src="/img/memory.png" alt="memory"></div>
+                    <div class="img-item"><img src="/img/display.png" alt="display"></div>
+                    <div class="img-item"><img src="/img/battery.png" alt="battery"></div>
+                </div>
+
+                <div class="input-box d-flex justify-content-between aling-center">
+                    <div class="text-item"></div>
+                    <div class="text-item"></div>
+                    <div class="text-item"></div>
+                    <div class="text-item"></div>
+                </div>
+                <!-- /.input-box -->
+                <!-- /.img-box -->
+                <div class="price-box">
+                    <div class="price-item"></div>
+                    <div class="price-item"></div>
+                </div>
+                <!-- /.price-box -->
+                <div class="description-box"></div>
+                <!-- /.description-box -->
+                <div class="info-box d-flex justify-content-between">
+                    <span>Автор: </span>
+                    <div class="author"></div>
+                    <span>Дата: </span>
+                    <div class="date"></div>
+                </div>
+                <!-- /.info-box -->
             </div>
-            <!-- /.container-price -->
+            <!-- /.container -->
         </section>
-        <!-- /.price -->
+        <!-- /#price -->
     </main>
     <!-- /#main -->
     <script src="/script.js"></script>
 </body>
+
 </html>
