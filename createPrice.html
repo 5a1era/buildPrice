@@ -5,12 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/createPrice.css">
+    <link rel="stylesheet" href="/buildPrice/createPrice.css">
     <title>Создать ценник</title>
 </head>
 
 <body>
-    <main id="main">
+    <main id="main" class="d-flex">
         <section id="create-price">
             <div class="container">
                 <div class="title-box">
@@ -21,10 +21,10 @@
                 <!-- /.title-box -->
 
                 <div class="img-box d-flex justify-content-between">
-                    <div class="img-item"><img src="/img/camera.png" alt="camera"></div>
-                    <div class="img-item"><img src="/img/memory.png" alt="memory"></div>
-                    <div class="img-item"><img src="/img/display.png" alt="display"></div>
-                    <div class="img-item"><img src="/img/battery.png" alt="battery"></div>
+                    <div class="img-item"><img src="/buildPrice/img/camera.png" alt="camera"></div>
+                    <div class="img-item"><img src="/buildPrice/img/memory.png" alt="memory"></div>
+                    <div class="img-item"><img src="/buildPrice/img/display.png" alt="display"></div>
+                    <div class="img-item"><img src="/buildPrice/img/battery.png" alt="battery"></div>
                 </div>
 
                 <div class="input-box d-flex justify-content-between aling-center">
@@ -69,32 +69,34 @@
                 </div>
                 <!-- /.title-box -->
                 <div class="img-box d-flex justify-content-between">
-                    <div class="img-item"><img src="/img/camera.png" alt="camera"></div>
-                    <div class="img-item"><img src="/img/memory.png" alt="memory"></div>
-                    <div class="img-item"><img src="/img/display.png" alt="display"></div>
-                    <div class="img-item"><img src="/img/battery.png" alt="battery"></div>
+                    <div class="img-item"><img src="/buildPrice/img/camera.png" alt="camera"></div>
+                    <div class="img-item"><img src="/buildPrice/img/memory.png" alt="memory"></div>
+                    <div class="img-item"><img src="/buildPrice/img/display.png" alt="display"></div>
+                    <div class="img-item"><img src="/buildPrice/img/battery.png" alt="battery"></div>
                 </div>
 
-                <div class="input-box d-flex justify-content-between aling-center">
-                    <div class="text-item"></div>
-                    <div class="text-item"></div>
-                    <div class="text-item"></div>
-                    <div class="text-item"></div>
+                <div class="input-box d-flex justify-content-between align-center">
+                    <div class="text-item">Камера</div>
+                    <div class="text-item">Память</div>
+                    <div class="text-item">Дисплей</div>
+                    <div class="text-item">Батарея</div>
                 </div>
                 <!-- /.input-box -->
                 <!-- /.img-box -->
                 <div class="price-box">
-                    <div class="price-item"></div>
-                    <div class="price-item"></div>
+                    <span>Цена: </span><div class="price-item">цена р.</div> <span>с сим картой</span>
+                    <span>Цена: </span><div class="price-item">цена р.</div> <span>без сим карты</span>
                 </div>
                 <!-- /.price-box -->
-                <div class="description-box"></div>
+                <div class="description-box">
+                    <span>Дисплей: ; Процессор: ; ФК: ;</span>
+                </div>
                 <!-- /.description-box -->
                 <div class="info-box d-flex justify-content-between">
                     <span>Автор: </span>
-                    <div class="author"></div>
+                    <div class="author">Автор</div>
                     <span>Дата: </span>
-                    <div class="date"></div>
+                    <div class="date">Дата</div>
                 </div>
                 <!-- /.info-box -->
             </div>
@@ -103,7 +105,7 @@
         <!-- /#price -->
     </main>
     <!-- /#main -->
-    <script src="/script.js"></script>
+    <script src="/buildPrice/script.js"></script>
 </body>
 
 </html>

@@ -12,17 +12,22 @@ a {
     text-decoration: none;
     color: #000;
 }
+#create-price {
+    padding: 0 5px;
+    display: block;
+}
 
 .container {
     max-width: 100%;
-    width: 230px;
+    width: 250px;
     height: 350px;
     border: 1px solid #ddd;
   
 }
 
 .title-box {
-    margin: 0 5px 5px 5px;
+    margin: 0;
+    
 }
 
 input{
@@ -38,6 +43,7 @@ input{
 
 .price-box {
     margin: 0 5px 5px 5px;
+    border-bottom: 1px solid #ddd;
 }
 
 .description-box {
@@ -85,6 +91,12 @@ input{
         border-radius: 6px;
     }
 
+    .input-box {
+        border-bottom: 1px solid #ddd;
+    }
+
+
+
     img {
         width: 30px;
         height: 30px;
@@ -100,3 +112,42 @@ input{
         border-top: 1px solid #ddd;
         margin: 0;
     }
+
+    .name-company {
+        font-size: 12px;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .category-goods {
+        font-size: 18px;
+    }
+    .name-goods {
+        font-size: 20px;
+        font-weight: 900;
+    }
+    .text-item {
+        font-size:16px;
+        font-weight: 900;
+        
+    }
+
+    .price-item {
+        display: inline;
+        font-size: 20px;
+        font-weight: 900;
+    }
+   span {
+       font-size: 12px;
+   }
+
+   .author {
+       font-size:14px;
+       font-weight: 400;
+   }
+
+   .date {
+    font-size:14px;
+    font-weight: 400;
+   }
+
+  
